@@ -1,0 +1,19 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    switch(a)
+    {
+        case 1:
+        {printf("nihao");
+        break;}
+        case 2:
+        printf("zaijian");
+        break;//由此可见break关键字的作用仅对于switch和while语句有用，且作用域不是由花括号决定
+        
+    }
+    return 0;
+  }
